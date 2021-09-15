@@ -1,0 +1,203 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+.main-dashboard-container {
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+  // height: auto;
+  height: 100vh;
+}
+
+.dashboard-container-top {
+  width: 100%;
+  border: 1px solid black;
+  height: 50%;
+}
+
+  .dashboard-container-top-upper {
+    width: 100%;
+    border: 1px soid black;
+    height: 30%;
+  }
+
+    .navbar-container {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+      button {
+        cursor: pointer;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 50rem;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        margin: 1rem 0.6rem 1rem 0.6rem;
+        padding: 0.2rem;
+      }
+
+      button:hover {
+        background-color: black;
+        color: white;
+      }
+
+  .dashboard-container-top-lower {
+    background-color: #dceef3;
+    width: 100%;
+    border: 1px solid black;
+    height: 70%;
+    display: flex;
+  }
+
+    .info-block {
+      flex: 0 1 25%;
+      border: 1px solid black;
+      // height: 100%;
+      margin: 5px;
+      padding: 5px;
+    }
+
+      .info-block h3:before {
+        // ####
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 20px;
+        background-color: red;
+        margin-right: 10px;
+        margin-left: 5px;
+        // ####
+
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 80px;
+      }
+
+    .horizontal-text-holder {
+        // ####
+        padding-left: 5px;
+        border-bottom: 1px solid black;
+        padding-bottom: 4px;
+        margin: 9px 10px 9px 10px;
+        // ####
+        font-size: 14px;
+        color: black;
+      }
+
+      .info-block-bottom {
+        width: 100%;
+        // border: 1px solid black;
+        // how to make it auto fit to 70% of parent?
+        height: 64%;
+        display: flex;
+      }
+
+        .info-block-bottom-left {
+          width: 50%;
+          // border: 1px solid black;
+          height: 80%;
+          margin-top: 20px;
+        }
+
+          .info-block-bottom-left h4 {
+            margin-top: 68px;
+            margin-left: 20px;
+          }
+
+          .info-block-bottom-left p {
+            // margin-top: 68px;
+            margin-left: 20px;
+            color: grey;
+            text-decoration: none;
+          }
+
+        .info-block-bottom-right {
+          width: 50%;
+          border-left: 1px solid grey;
+          height: 80%;
+          margin-top: 20px;
+        }
+
+          .info-block-bottom-right h4 {
+            margin-top: 68px;
+            margin-left: 20px;
+          }
+
+          .info-block-bottom-right p {
+            // margin-top: 68px;
+            margin-left: 20px;
+            color: grey;
+            text-decoration: none;
+          }
+
+.dashboard-container-bottom {
+  width: 100%;
+  border: 1px solid black;
+  height: 50%;
+  display: flex;
+}
+
+  .dashboard-container-bottom-left {
+    height: 100%;
+    border: 1px solid black;
+    width: 33.3%;
+  }
+
+    .pie-container {
+      display: flex;
+    }
+
+      .pie-chart {
+        display: bock;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 5px 10px 5px 10px;
+        background-image: conic-gradient(
+          pink 70deg,
+          green 260deg,
+          orange 123deg);
+      }
+
+        .pie-chart h1 {
+          margin-top: 220px;
+        }
+
+  .dashboard-container-bottom-center {
+    height: 100%;
+    border: 1px solid black;
+    width: 33.4%;
+  }
+
+    .dashboard-container-bottom-center-center-top {
+      height: 20%;
+      border: 1px solid black;
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .dashboard-container-bottom-center-center {
+      height: 40%;
+      border: 1px solid black;
+      width: 100%;
+    }
+
+    .dashboard-container-bottom-center-bottom {
+      height: 40%;
+      border: 1px solid black;
+      width: 100%;
+      margin-bottom: 0;
+    }
+
+  .dashboard-container-bottom-right {
+    height: 100%;
+    border: 1px solid black;
+    width: 33.3%;
+  }
